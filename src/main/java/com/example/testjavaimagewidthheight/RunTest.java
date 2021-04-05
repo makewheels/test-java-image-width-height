@@ -14,6 +14,8 @@ public class RunTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        if (bufferedImage == null)
+            return;
         int width = bufferedImage.getWidth();
         int height = bufferedImage.getHeight();
         System.out.println(width);
